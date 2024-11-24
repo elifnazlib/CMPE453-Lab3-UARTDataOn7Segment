@@ -97,7 +97,7 @@ void displayDigit(int digit) {		// Function to display a digit on the 7-segment 
 void setup() {		// Setup function
   Serial.begin(9600);	// Initialize the serial communication at 9600 baud rate
   DDRB = 0xFF;		// Set PORTB as output
-  DDRD = 0xFF;		// Set PORTB as output
+  DDRD = 0xFF;		// Set PORTD as output
 }
 
 void loop() {
